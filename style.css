@@ -1,0 +1,160 @@
+/*General Styling*/
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6; 
+    color: #333; 
+}
+
+/*Header dan Footer Styling*/
+header, footer {
+    background-color: #005A9C; 
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/*Navigasi*/
+nav {
+    background-color: #007BFF; 
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline; 
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+/*Konten Utama (MAIN)*/
+main {
+    max-width: 1200px; 
+    margin: 20px auto; 
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 30px; /*Ngasih jarak antar segmen*/
+}
+
+/*Styling Kartu Produk*/
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Layout grid yang responsif */
+    gap: 20px; /*Jarak antar kartu produk*/
+}
+
+.product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px; /*Sudut aga melengkung*/
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /*Efek shaodw*/
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product-card h3 {
+    margin: 10px 0;
+}
+
+/*Styling Form dan Tombol*/
+#input-pencarian {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Agar padding tidak merusak layout */
+}
+
+.details-button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/*Styling Bagian Lokasi*/
+#lokasi h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.location-details {
+    display: flex;
+    flex-wrap: wrap; /* Agar responsif di layar kecil? */
+    gap: 20px;
+    align-items: center;
+}
+
+.map-placeholder {
+    flex: 1; /* Mengambil ruang yang tersedia */
+    min-width: 300px;
+}
+
+.map-placeholder img {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.info-text {
+    flex: 1; /* Mengambil ruang yang tersedia */
+    min-width: 300px;
+}
+
+/*Tombol Sosmed*/
+.social-button {
+    display: inline-block;
+    padding: 12px 20px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.wa {
+    background-color: #25D366; /*WhatsApp*/
+}
+
+.shopee {
+    background-color: #EE4D2D; /*Shopee*/
+}
+
+.footer-social {
+    margin-top: 10px;
+}
+
+.footer-social a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
