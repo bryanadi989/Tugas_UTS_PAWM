@@ -140,7 +140,9 @@ section {
     margin-right: 10px;
     text-align: center;
 }
-
+.gmaps {
+    background-color: #007BFF; /*Gmaps*/
+}
 .wa {
     background-color: #25D366; /*WhatsApp*/
 }
