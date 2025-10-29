@@ -40,7 +40,7 @@ searchInput.addEventListener('keyup', () => {
 async function loadProducts() {
     try {
         const response = await fetch(apiUrl); //panggil api
-        const data = await response.json();   //respon diubah ke json
+        const data = await response.json();   //respon diubah dari json ke object di js
         products = data; //simpan data ke variabel products
         displayProducts(products, productGrid); //tampilin produk ke halaman
         const featuredProducts = products.filter(p => p.category === 'Suplemen').slice(0,1); //maks 1? kan unggulan 

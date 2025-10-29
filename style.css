@@ -107,7 +107,7 @@ section {
 
 .location-details {
     display: flex;
-    flex-wrap: wrap; /* Agar responsif di layar kecil? */
+    flex-wrap: wrap; /* Agar responsif di layar kecil */
     gap: 20px;
     align-items: center;
 }
