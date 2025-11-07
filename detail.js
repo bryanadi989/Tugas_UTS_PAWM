@@ -88,4 +88,14 @@ async function loadProductDetail() {
     }
 }
 
+window.addEventListener('load', () => {
+    const splash = document.getElementById('splash-screen');
+
+    setTimeout(() => {
+        if (splash) {
+            splash.style.opacity = '0';
+            setTimeout(() => splash.style.display = 'none', 500); 
+        }
+    }, 1000); 
+});
 window.addEventListener('load', loadProductDetail);
